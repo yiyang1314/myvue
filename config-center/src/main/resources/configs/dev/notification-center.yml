@@ -1,0 +1,62 @@
+logging:
+  level:
+    root: info
+    com.cloud: debug
+  file: logs/${spring.application.name}.log
+spring:
+  redis:
+    host: local.redis.com
+    port: 6379
+    password:
+    timeout: 10s
+    lettuce:
+      pool:
+        min-idle: 0
+        max-idle: 8
+        max-active: 8
+        max-wait: -1ms
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://local.mysql.com:3306/cloud_notification?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+    username: root
+    password: root
+    hikari:
+      minimum-idle: 5
+      maximum-pool-size: 20
+      connection-test-query: SELECT 1
+  rabbitmq:
+    host: local.rabbitmq.com
+    port: 5672
+    username: test
+    password: test
+    virtual-host: /
+  mvc:
+    servlet:
+      load-on-startup: 1
+  aop:
+    proxy-target-class: true
+  zipkin:
+    base-url: http://local.zipkinserver.com:9411
+    enabled: true
+    sender:
+      type: web
+mybatis:
+  type-aliases-package: com.cloud.notification.model
+  mapper-locations: classpath:/mybatis-mappers/*
+  configuration:
+    mapUnderscoreToCamelCase: true
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://local.gateway.com:8080/api-o/user-me
+      prefer-token-info: false
+aliyun:
+  accessKeyId: LTAInE8Cq1NyKU1Z
+  accessKeySecret: VdsJ38bPeO8aOfBkXlTkB0m1RbjkXm
+  sign:
+    name1: 121041275
+  template:
+    code1: SMS_160860645
+sms:
+  expire-minute: 15
+  day-count: 30

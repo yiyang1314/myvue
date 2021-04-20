@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: export-zullserver
+server:
+  port: 8005
+
+eureka:
+  client:
+    service-url:
+      # Eureka注册中心连接地址
+      # 如果注册中心地址配置的域名，这里使用 http://域名/eureka/ 格式
+      defaultZone: http://localhost:8761/eureka/
+zuul:
+  routes:
+    # 路由名称，随意
+    export-exportserver:
+      # 路由地址
+      path: /api/admin/**
+      # 该路由地址对应的服务名称
+      serviceId: export-exportserver
+    export-knife4j:
+      path: /api/auth/**
+      serviceId: export-knife4j
+#template-eureka 、template-zuul、template-admin、template-auth的顺序启动项目
+#localhost:9003/api/auth/feignHello/tycoding

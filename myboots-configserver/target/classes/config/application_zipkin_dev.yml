@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: myboots-zikpinserver
+  # 解决Zipkin启动The bean 'characterEncodingFilter', defined in
+  main:
+    allow-bean-definition-overriding: true
+#  profiles:
+#    active: native
+#  cloud:
+#    config:
+#      uri: http://locahost:8888
+#      name: application-zuul
+#      profile: dev
+  #9411是默认端口
+server:
+  port: 9411
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+#management:
+#  metrics:
+#    web:
+#      # 解决Zipkin报错IllegalArgumentException: Prometheus requires that all meters
+#      server:
+#        auto-time-requests: false

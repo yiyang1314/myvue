@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/myboots-admin" />
+    <file type="web" url="file://$PROJECT_DIR$/myboots-configserver" />
+    <file type="web" url="file://$PROJECT_DIR$/myboots-enrekarserver" />
+    <file type="web" url="file://$PROJECT_DIR$/myboots-exportcustmer" />
+    <file type="web" url="file://$PROJECT_DIR$/myboots-exportserver" />
+    <file type="web" url="file://$PROJECT_DIR$/myboots-knife4" />
+    <file type="web" url="file://$PROJECT_DIR$/myboots-knife4j" />
+    <file type="web" url="file://$PROJECT_DIR$/myboots-socket" />
+    <file type="web" url="file://$PROJECT_DIR$/myboots-websocket" />
+    <file type="web" url="file://$PROJECT_DIR$/myboots-zikpinserver" />
+    <file type="web" url="file://$PROJECT_DIR$/myboots-zull" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/myboots-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/myboots-enrekarserver/pom.xml" />
+        <option value="$PROJECT_DIR$/myboots-knife4/pom.xml" />
+        <option value="$PROJECT_DIR$/myboots-exportserver/pom.xml" />
+        <option value="$PROJECT_DIR$/myboots-exportcustmer/pom.xml" />
+        <option value="$PROJECT_DIR$/myboots-zull/pom.xml" />
+        <option value="$PROJECT_DIR$/myboots-configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/myboots-zipkins/pom.xml" />
+        <option value="$PROJECT_DIR$/myboots-admin/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

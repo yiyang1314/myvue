@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/myboots-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myboots-configserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myboots-dependencies" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myboots-enrekarserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myboots-exportcustmer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myboots-exportserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myboots-knife4" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myboots-knife4j" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myboots-socket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myboots-websocket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myboots-websocket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myboots-zikpinserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myboots-zipkins" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myboots-zull" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="myboots-customer" />
+        <module name="myboot-zipkinser" />
+        <module name="export-zullserver" />
+        <module name="myboots-configserver" />
+        <module name="myboots-adminserver" />
+        <module name="myboot-enrekar" />
+        <module name="myboots-knife4j" />
+        <module name="myboots-exportserver" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.myboot.zipkin" target="1.8" />
+      <module name="myboot-exportserver" target="1.5" />
+      <module name="myboots-websocket" target="1.8" />
+      <module name="myboots-websockets" target="1.8" />
+      <module name="myboots-zikpinserver" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="com.myboot.zipkin" options="-parameters" />
+      <module name="export-zullserver" options="-parameters" />
+      <module name="myboot-enrekar" options="-parameters" />
+      <module name="myboot-zipkinser" options="-parameters" />
+      <module name="myboots-adminserver" options="-parameters" />
+      <module name="myboots-configserver" options="-parameters" />
+      <module name="myboots-customer" options="-parameters" />
+      <module name="myboots-exportserver" options="-parameters" />
+      <module name="myboots-knife4j" options="-parameters" />
+      <module name="myboots-websocket" options="-parameters" />
+      <module name="myboots-websockets" options="-parameters" />
+      <module name="myboots-zikpinserver" options="-parameters" />
+    </option>
+  </component>
+</project>

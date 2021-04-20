@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: export-server
+server:
+  port: 8002
+
+feign:
+  hystrix:
+    # 开启Feign的Hystrix熔断器支持
+    enabled: true
+eureka:
+  client:
+    service-url:
+      # Eureka注册中心连接地址
+      # 如果注册中心地址配置的域名，这里使用 http://域名/eureka/ 格式
+      defaultZone: http://localhost:8761/eureka/
